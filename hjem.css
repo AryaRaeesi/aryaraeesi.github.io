@@ -1,0 +1,107 @@
+/*##########################################################*/
+/*##########################################################*/
+/*##########################################################*/
+
+/*Generell*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html { 
+    background: url(Bilde9.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: -1;
+}
+/*##########################################################*/
+/*##########################################################*/
+/*##########################################################*/
+
+/*Innhold*/
+
+.innhold {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+h1 {
+    font-size: 50px;
+}
+h2 {
+    font-size: 32px;
+    padding-left: 40px;
+}
+p {
+    padding-top: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 24px;
+    transition: 0.25s;   
+}
+p:hover {
+    color: wheat;
+}
+
+.overskrift {
+    padding-top: 30px;
+    text-align:center;
+    color: white;
+}
+
+.generell-info {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+    transition: 0.25s;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+/*##########################################################*/
+/*##########################################################*/
+/*##########################################################*/
+
+/*Bilder og kart*/
+
+.bilder-og-kart {
+    line-height: 12.5mm;
+    padding-top: 75px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#bilde1, .kart {
+    width: 600px;
+    height: 450px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/*##########################################################*/
+/*##########################################################*/
+/*##########################################################*/
+
+/*Styret*/
+
+.styret {
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/*##########################################################*/
+/*##########################################################*/
+/*##########################################################*/

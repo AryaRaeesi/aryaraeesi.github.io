@@ -1,0 +1,57 @@
+/*##########################################################*/
+/*##########################################################*/
+/*##########################################################*/
+
+/*Generell*/
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+html { 
+    background: url(Bilde9.jpeg) no-repeat center center fixed; /*Tenkte på å bytte bakgrunn, men alle de andre bildene har så dårlig kvalitet.*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    z-index: -1;
+}
+/*##########################################################*/
+/*##########################################################*/
+/*##########################################################*/
+
+/*Innhold*/
+
+.Innhold {
+    background-color:rgba(0, 0, 0, 0.5);
+    height: 625px;
+}
+
+h1, p {
+    color: white;
+    padding: 20px 20px;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+p {
+    font-size: 24px;
+    text-align: left;
+    transition: 0.25s;
+
+}
+
+p:hover {
+    color: wheat;
+    transition: 0.25s;
+
+}
+
+/*##########################################################*/
+/*##########################################################*/
+/*##########################################################*/
